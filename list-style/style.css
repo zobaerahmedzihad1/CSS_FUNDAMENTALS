@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  font-size: 40px;
+  margin-right: 50px;
+}
+ul li {
+  /* list-style-image: url(./arrow2.png); */
+  list-style: square url(./arrow2.png);
+}
+
+ol {
+  font-size: 40px;
+}
