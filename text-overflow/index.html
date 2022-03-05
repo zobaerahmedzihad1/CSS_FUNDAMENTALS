@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text overflow</title>
+    <style>
+      h1 {
+        border: 2px solid red;
+        padding: 10px;
+        width: 90%;
+        overflow: hidden;
+        /* WHITE SPACE PROPARITY MUST BE USE WITH ELLIPSIS */
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in aut cum
+      quod quia dolorum, ratione quisquam amet! Dolore earum rerum eveniet
+      incidunt porro velit iure aliquid, distinctio aspernatur optio!
+    </h1>
+  </body>
+</html>
