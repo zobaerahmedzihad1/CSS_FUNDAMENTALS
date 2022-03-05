@@ -1,0 +1,36 @@
+#title {
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+
+/* CSS FONT SIZE PROPERTY */
+.font__size {
+  /* font-size: 3rem; */
+  /* font-size: 2em; */
+  font-size: 40px;
+
+  border: 3px solid red;
+  padding: 15px;
+}
+/* LINE HEIGHT */
+.name {
+  line-height: 50px;
+
+  background-color: blueviolet;
+  color: white;
+  height: 50px;
+}
+/* <!-- FONT WEIGHT --> */
+.font__weight {
+  font-weight: 900px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid red;
+  padding: 20px;
+}
