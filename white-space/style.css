@@ -1,0 +1,36 @@
+#white__space {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 40px;
+  /* height: 500px; */
+  /* white-space: pre; */
+}
+/* PRE */
+pre {
+  font-size: 50px;
+  text-align: center;
+}
+/* NO WRAP */
+.no-wrap {
+  border: 2px solid red;
+  padding: 10px;
+
+  white-space: nowrap;
+}
+/* PRE LINE */
+.pre-line {
+  border: 2px solid red;
+  padding: 10px;
+
+  white-space: pre-line;
+  /* pre line value accept no extra space. */
+}
+.pre-wrap {
+  border: 2px solid red;
+  padding: 10px;
+
+  white-space: pre-wrap;
+
+  /* PRE WRAP CAN NOT ACCEPT A SINGLE LINE I MEANS (NO-WRAP) VALUE */
+}
